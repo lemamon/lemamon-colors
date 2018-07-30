@@ -1,3 +1,3 @@
 <?php
-    header("Location: index.htmml");
+    header("Location: index.html");
     exit();
