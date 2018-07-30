@@ -1,0 +1,255 @@
+/* Container config */
+/* Single block config */
+/* Flower Colors */
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-align: center;
+    justify-content: center;
+  }
+  
+  main {
+    width: 300px;
+    height: 300px;
+    margin: 1em;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    grid-template-rows: repeat(18, auto);
+  }
+  
+  .block {
+    width: 100%;
+    border: 0.5px solid #c5c5c5;
+    margin-bottom: -1px;
+  }
+  
+  .block_col1 {
+    border-left: none;
+  }
+  
+  .block_col18 {
+    border-right: none;
+  }
+  
+  .block_row1 {
+    border-top: none;
+  }
+  
+  .block_row18 {
+    border-bottom: none;
+  }
+  
+  /* Colouring Black - By Row */
+  .block_row2.block_col9, 
+  .block_row2.block_col10,
+  .block_row3.block_col4, 
+  .block_row3.block_col8, 
+  .block_row3.block_col11, 
+  .block_row3.block_col15,
+  .block_row4.block_col3, 
+  .block_row4.block_col5, 
+  .block_row4.block_col7, 
+  .block_row4.block_col12, 
+  .block_row4.block_col14, 
+  .block_row4.block_col16,
+  .block_row5.block_col3, 
+  .block_row5.block_col6, 
+  .block_row5.block_col13, 
+  .block_row5.block_col16,
+  .block_row6.block_col2, 
+  .block_row6.block_col17,
+  .block_row7.block_col2, 
+  .block_row7.block_col6, 
+  .block_row7.block_col7, 
+  .block_row7.block_col11, 
+  .block_row7.block_col12, 
+  .block_row7.block_col17,
+  .block_row8.block_col2, 
+  .block_row8.block_col5, 
+  .block_row8.block_col8, 
+  .block_row8.block_col10, 
+  .block_row8.block_col13, 
+  .block_row8.block_col17,
+  .block_row9.block_col2, 
+  .block_row9.block_col17,
+  .block_row10.block_col3, 
+  .block_row10.block_col16,
+  .block_row11.block_col4, 
+  .block_row11.block_col15,
+  .block_row12.block_col5, 
+  .block_row12.block_col6, 
+  .block_row12.block_col13, 
+  .block_row12.block_col14,
+  .block_row13.block_col7, 
+  .block_row13.block_col8, 
+  .block_row13.block_col9, 
+  .block_row13.block_col10, 
+  .block_row13.block_col11, 
+  .block_row13.block_col12,
+  .block_row14.block_col4, 
+  .block_row14.block_col5, 
+  .block_row14.block_col6, 
+  .block_row14.block_col8, 
+  .block_row14.block_col11, 
+  .block_row14.block_col12, 
+  .block_row14.block_col13, 
+  .block_row14.block_col14,
+  .block_row15.block_col3, 
+  .block_row15.block_col7, 
+  .block_row15.block_col8, 
+  .block_row15.block_col11, 
+  .block_row15.block_col15,
+  .block_row16.block_col2, 
+  .block_row16.block_col8, 
+  .block_row16.block_col10, 
+  .block_row16.block_col16,
+  .block_row17.block_col2, 
+  .block_row17.block_col8, 
+  .block_row17.block_col9, 
+  .block_row17.block_col10, 
+  .block_row17.block_col16 {
+    background-color: #000000;
+  }
+  
+  /* Colouring Dark orange - By Row */
+  .block_row4.block_col15,
+  .block_row6.block_col16,
+  .block_row7.block_col16,
+  .block_row8.block_col16,
+  .block_row9.block_col15, 
+  .block_row9.block_col16,
+  .block_row10.block_col15,
+  .block_row11.block_col5, 
+  .block_row11.block_col12, 
+  .block_row11.block_col13, 
+  .block_row11.block_col14,
+  .block_row12.block_col7, 
+  .block_row12.block_col8, 
+  .block_row12.block_col9, 
+  .block_row12.block_col10, 
+  .block_row12.block_col11, 
+  .block_row12.block_col12 {
+    background-color: #AA2310;
+  }
+  
+  /* Colouring Orange - By Row */
+  .block_row3.block_col9, 
+  .block_row3.block_col10,
+  .block_row4.block_col4, 
+  .block_row4.block_col8, 
+  .block_row4.block_col9, 
+  .block_row4.block_col10, 
+  .block_row4.block_col11,
+  .block_row5.block_col4,
+  .block_row5.block_col5, 
+  .block_row5.block_col7, 
+  .block_row5.block_col8, 
+  .block_row5.block_col9, 
+  .block_row5.block_col10, 
+  .block_row5.block_col11, 
+  .block_row5.block_col12, 
+  .block_row5.block_col14, 
+  .block_row5.block_col15,
+  .block_row6.block_col3, 
+  .block_row6.block_col4, 
+  .block_row6.block_col5, 
+  .block_row6.block_col6, 
+  .block_row6.block_col7, 
+  .block_row6.block_col8, 
+  .block_row6.block_col9, 
+  .block_row6.block_col10, 
+  .block_row6.block_col11, 
+  .block_row6.block_col12, 
+  .block_row6.block_col13, 
+  .block_row6.block_col14,
+  .block_row6.block_col15,
+  .block_row7.block_col3, 
+  .block_row7.block_col4, 
+  .block_row7.block_col5, 
+  .block_row7.block_col8, 
+  .block_row7.block_col9, 
+  .block_row7.block_col10, 
+  .block_row7.block_col13, 
+  .block_row7.block_col14,
+  .block_row7.block_col15,
+  .block_row8.block_col3, 
+  .block_row8.block_col4, 
+  .block_row8.block_col6, 
+  .block_row8.block_col7, 
+  .block_row8.block_col9, 
+  .block_row8.block_col11, 
+  .block_row8.block_col12, 
+  .block_row8.block_col14,
+  .block_row8.block_col15,
+  .block_row9.block_col3, 
+  .block_row9.block_col4, 
+  .block_row9.block_col5, 
+  .block_row9.block_col6, 
+  .block_row9.block_col7, 
+  .block_row9.block_col8, 
+  .block_row9.block_col9, 
+  .block_row9.block_col10, 
+  .block_row9.block_col11, 
+  .block_row9.block_col12, 
+  .block_row9.block_col13, 
+  .block_row9.block_col14,
+  .block_row10.block_col4, 
+  .block_row10.block_col5, 
+  .block_row10.block_col6, 
+  .block_row10.block_col7, 
+  .block_row10.block_col8, 
+  .block_row10.block_col9, 
+  .block_row10.block_col10, 
+  .block_row10.block_col11, 
+  .block_row10.block_col12, 
+  .block_row10.block_col13, 
+  .block_row10.block_col14,
+  .block_row11.block_col6, 
+  .block_row11.block_col7, 
+  .block_row11.block_col8, 
+  .block_row11.block_col9, 
+  .block_row11.block_col10, 
+  .block_row11.block_col11 {
+    background-color: #FF8200;
+  }
+  
+  /* Colouring Green - By Row */
+  .block_row14.block_col9,
+  .block_row15.block_col4, 
+  .block_row15.block_col5, 
+  .block_row15.block_col9, 
+  .block_row15.block_col12, 
+  .block_row15.block_col13,
+  .block_row16.block_col3, 
+  .block_row16.block_col4, 
+  .block_row16.block_col5, 
+  .block_row16.block_col6, 
+  .block_row16.block_col9, 
+  .block_row16.block_col11, 
+  .block_row16.block_col12, 
+  .block_row16.block_col13, 
+  .block_row16.block_col14 {
+    background-color: #00FF00;
+  }
+  
+  /* Colouring Dark Green - By Row */
+  .block_row14.block_col10,
+  .block_row15.block_col6, 
+  .block_row15.block_col10, 
+  .block_row15.block_col14,
+  .block_row16.block_col7, 
+  .block_row16.block_col15,
+  .block_row17.block_col3, 
+  .block_row17.block_col4, 
+  .block_row17.block_col5, 
+  .block_row17.block_col6, 
+  .block_row17.block_col7, 
+  .block_row17.block_col11, 
+  .block_row17.block_col12, 
+  .block_row17.block_col13, 
+  .block_row17.block_col14, 
+  .block_row17.block_col15 {
+    background-color: #008000;
+  }
+  

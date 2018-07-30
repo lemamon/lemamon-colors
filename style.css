@@ -1,0 +1,65 @@
+/* Container config */
+/* Single block config */
+/* Flower Colors */
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-align: center;
+    justify-content: center;
+  }
+  
+  main {
+    width: 500px;
+    height: 500px;
+    margin: 1em;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: repeat(18, auto);
+    grid-template-rows: repeat(18, auto);
+  }
+  
+
+  #palet {
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+  }
+  
+  .block {
+    width: 100%;
+    border: 0.5px solid #c5c5c5;
+    margin-bottom: -1px;
+  }
+  
+  .block_col1 {
+    border-left: none;
+  }
+  
+  .block_col18 {
+    border-right: none;
+  }
+  
+  .block_row1 {
+    border-top: none;
+  }
+  
+  .block_row18 {
+    border-bottom: none;
+  }
+  
+  .c99{background-color: #000000;}
+  .c98{background-color: #ffffff;}
+  .c11{background-color: #ff0000;}
+  .c12{background-color: #ff00e5;}
+  .c13{background-color: #8700ff;}
+  .c14{background-color: #0048ff;}
+  .c15{background-color: #00d8ff;}
+  .c21{background-color: #00ff72;}
+  .c22{background-color: #a5ff00;}
+  .c23{background-color: #fff200;}
+  .c24{background-color: #ff9000;}
+  .c25{background-color: #ff00d0;}
